@@ -13,7 +13,7 @@ import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
 /**
- * @author þý‹æ£®æ´þý
+ * @author SenHong Wang
  *
  * @date 2012-5-4
  */

@@ -35,7 +35,7 @@ import org.xml.sax.SAXException;
  */
 
 /**
- * @author þý‹æ£®æ´þý
+ * @author SenHong Wang
  *
  * @date 2012-4-18
  */
@@ -137,7 +137,7 @@ public class HelpFunctions {
 		Document document=getDocument(path);
 		HashMap<String, String> map=new HashMap<String, String>();
 		Element element = document.getDocumentElement();
-		// System.out.println("þý¹åþýç´ ä¸º:" + element.getTagName());
+		// System.out.println("From HelpFunctions:" + element.getTagName());
 		NodeList childList = element.getChildNodes();
 		for (int i = 0; i < childList.getLength(); i++) {
 			Node node = childList.item(i);
@@ -153,7 +153,7 @@ public class HelpFunctions {
 		Document document=getDocument(path);
 		HashMap<String, String> map=new HashMap<String, String>();
 		Element element = document.getDocumentElement();
-		// System.out.println("þý¹åþýç´ ä¸º:" + element.getTagName());
+		// System.out.println("From HelpFunctions:" + element.getTagName());
 		NodeList childList = element.getChildNodes();
 		for (int i = 0; i < childList.getLength(); i++) {
 			Node node = childList.item(i);
@@ -306,7 +306,7 @@ public class HelpFunctions {
 				+ "(" + "([0-9]{1,3}\\.){3}[0-9]{1,3}" // ip format url is
 														// allowed
 				// 199.194.52.184
-				+ "|" // þýè®¸IPþýŒDOMAINï¼ˆåþýþýïþý
+				+ "|" // IP-DOMAINï¼ˆ
 				+ "([0-9a-zA-Z_!~*'()-]+\\.)*" // domain- www.
 				+ "([0-9a-zA-Z][0-9a-zA-Z-]{0,61})?[0-9a-zA-Z]\\." // second
 																	// domain

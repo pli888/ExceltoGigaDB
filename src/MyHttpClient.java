@@ -25,7 +25,7 @@ import sun.net.ftp.FtpClient;
  */
 
 /**
- * @author þý‹æ£®æ´þý
+ * @author SenHong Wang
  * 
  * @date 2012-4-24
  */
@@ -299,7 +299,7 @@ public class MyHttpClient {
 		// prefix2url.xml
 		Document document = HelpFunctions.getDocument(prefixFilePath);
 		Element element = document.getDocumentElement();
-		// System.out.println("þý¹åþýç´ ä¸º:" + element.getTagName());
+		// System.out.println("From MyHttpClient:" + element.getTagName());
 		NodeList childList = element.getChildNodes();
 		for (int i = 0; i < childList.getLength(); i++) {
 			Node node = childList.item(i);
@@ -312,7 +312,7 @@ public class MyHttpClient {
 		// accessError.xml
 		document = HelpFunctions.getDocument(errorInfoPath);
 		element = document.getDocumentElement();
-		// System.out.println("þý¹åþýç´ ä¸º:" + element.getTagName());
+		// System.out.println("From MyHttpClient:" + element.getTagName());
 		childList = element.getChildNodes();
 		for (int i = 0; i < childList.getLength(); i++) {
 			Node node = childList.item(i);

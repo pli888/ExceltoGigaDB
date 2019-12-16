@@ -18,7 +18,7 @@ import jxl.read.biff.Record;
  */
 
 /**
- * @author ���森���
+ * @author SenHong Wang
  * 
  * @date 2012-3-31
  */
